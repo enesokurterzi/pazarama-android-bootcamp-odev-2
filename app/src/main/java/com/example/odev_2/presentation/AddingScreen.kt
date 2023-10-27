@@ -116,7 +116,7 @@ fun AddingScreen(
             value = stokAdedi,
             onValueChange = {
                 stokAdedi = it
-                isErrorinFiyat = it.isEmpty()
+                isErrorinStokAdedi = it.isEmpty()
             },
             label = { Text(text = "Stok adedi") },
             singleLine = true,
@@ -134,7 +134,7 @@ fun AddingScreen(
             value = fiyat,
             onValueChange = {
                 fiyat = it
-                isErrorinStokAdedi = it.isEmpty()
+                isErrorinFiyat = it.isEmpty()
             },
             label = { Text(text = "Fiyat") },
             singleLine = true,
